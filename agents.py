@@ -12,7 +12,7 @@ os.environ["OPENAI_MODEL_NAME"]="gpt-4-0125-preview"
 
 ## Create a senior blog content researcher
 
-blog_researcher=Agent(
+movie_analyst=Agent(
     role='Movie reviewer from IMDb',
     goal='get the relevant info for the show or movie {topic} from the provided website',
     verboe=True,
