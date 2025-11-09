@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 import os
-os.environ["OPEN_API_KEY"] = os.getenv("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")
+os.environ["OPEN_API_KEY"] = os.getenv("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")
 os.environ["OPENAI_MODEL_NAME"]="gpt-4-0125-preview"
 
 
